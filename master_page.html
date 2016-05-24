@@ -1,0 +1,30 @@
+<html>
+<<head>
+    <title>GINA DTN Master</title>
+</head>
+
+<body>
+  <p align="Center" style="font-size:40px">Welcome to the Decision Theater North Presentation Managment Page!</p>
+<p>
+  <BODY BGCOLOR="FFFFFF">
+    <form action="name.asp" align = "Center">
+    Last name: <input type="text" id="lname"><br>
+    Research: <input type="text" id = "research"><br>
+</p>
+<p>
+    Abstract or Info: <input type="text" id = "info"><br>
+    <script language = "JScript">
+
+    function dtn_folder() {
+        var name = document.getElementById("lname").value;
+        var proj = document.getElementById("research").value;
+        var info = document.getElementById("info").value;
+
+
+    }
+  </script>
+    <button onclick = "dtn_folder()">Submit!</button>
+  </form>
+
+  </body>
+  </html>
